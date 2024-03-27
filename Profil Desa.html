@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Desa Kasoloang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <a href="index.html" class="main-page-link">
+                <div class="header-content">
+                    <div class="text-container">
+                        <h1>Wisata Desa Bambaira</h1>
+                        <p>Kabupaten Pasangkayu</p>
+                    </div>
+                    <div class="logo-container">
+                        <img src="img/https___kompaspedia.kompas.id_wp-content_uploads_2020_09_LOGO_7600_SULAWESI-BARAT.png"
+                            alt="Logo Pemerintahan 1">
+                        <img src="img/Kabupaten_Pasangkayu.png" alt="Logo Pemerintahan 2">
+                    </div>
+                </div>
+            </a>
+        </header>
+
+        <div class="hamburger-menu mobile-nav">
+            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        </div>
+
+        <div class="navbar">
+            <a href="index.html">Beranda</a>
+            <a href="Profil Desa.html">Profil Desa</a>
+            <a href="Struktur Desa.html">Struktur Desa</a>
+            <div class="dropdown">
+                <a id="linkTidakAktif" href="">Wisata Desa &#x25BC;</a>
+                <div class="dropdown-content">
+                    <a href="Goa Ape.html" class="border-bottom">Goa Ape</a>
+                    <a href="Telaga Ape.html">Telaga Ape</a>
+                </div>
+            </div>
+            <a href="Produk Wisata.html">Produk Wisata</a>
+            <a href="Budaya Daerah.html">Budaya Daerah</a>
+            <a href="Lembaga Desa.html">Lembaga Desa</a>
+            <a href="Lokasi.html">Lokasi</a>
+        </div>
+
+        <div id="overlay-menu" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Beranda</a>
+                <a href="Profil Desa.html">Profil Desa</a>
+                <a href="Struktur Desa.html">Struktur Desa</a>
+                <div class="dropdown">
+                    <a href="javascript:void(0)" id="WisataDesaBtn">Wisata Desa &#x25BC;</a>
+                    <div id="WisataDesaDropdown" class="dropdown-content">
+                        <a href="Goa Ape.html" class="border-bottom">Goa Ape</a>
+                        <a href="Telaga Ape.html">Telaga Ape</a>
+                    </div>
+                </div>
+                <a href="Produk Wisata.html">Produk Wisata</a>
+                <a href="Budaya Daerah.html">Budaya Daerah</a>
+                <a href="Lembaga Desa.html">Lembaga Desa</a>
+                <a href="Lokasi.html">Lokasi</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <article class="artikel">
+                <h2>Sejarah Desa Kasoloang</h2>
+                <p>
+                    Tertulis dengan cerita daerah pedesaan yang subur, tumbuhan yang menghijau, diatas tanah datar dan kemiringang ditumbuhi pohon dan semak yang masih lebat, hiduplah sekelompok masyarakat yang terdiri dari berbagai macam suku, yaitu Kaili, Bugis, Mandar, Tator dan Jawa yang hidup secara rukun dan damai. Desa Kasoloang terdapat 2Km ke arah selatan dari kota kecamatan Bambalamotu dan 1Km ke arah utara dari ibu kota kecamatan Bambaira. Desa Kasoloang kecamatan Bambaira dulunya merupakan wilayah daerah tertinggal, ini terlihat dari kondisi masyarakat masih banyak dibawah garis kemiskinan dan kurangnya sarana dan prasarana di daerah ini. Melihat kondisi masyarakat di desa Kasoloang untuk lebih meningkatkan dan memajukan daerahnya.
+                </p>
+                <img src="img/unnamed.jpg" alt="Foto Desa Bambaira">
+                <p>
+                    Desa Kasoloang lama-kelamaan menjadi ramai dengan adanya pendatang yang ingin menetap dan tinggal di desa itu. Tak kalah lagi desa Kasoloang sudah terkenal di kalangan penduduk atau desa sekitar bahkan terdengar sampai keluar kabupaten. Konon cerita di desa ini selain ditumbuhi pohon-pohon hijau juga nempunyai sebuah gunung yang dihimpit oleh sungai yang biasa disebut oleh masyarakat <b>Kasoloang</b> yang asal mulanya adalah <b>Kasoloana</b> yang artinya posisi. Muara sungai tepat garis lurus tenggelamnya matahari yang diambil dari bahasa suku Kaili. Adapun didasarkan pada keragaman suku/etnis yang menghuni wilayah yang datang dari berbagai penjuru, ada yang berasal dari selatan seperi Bugis, Mandar, Tator, dan Jawa.
+                </p>
+                <p>
+                    Desa Kasoloang ini berarti "Posisi muara sungai sepanjang kurang lebih 400 meter sejajar garis lurus posisi tenggelamnya matahari pada saat itu" sampai saat ini yang dalam bahasa daerah Kaili Topodaa <b>Kasoloana</b> yang kemudian adanya suku Bugis masuk di wilayah ini diperkirakan tahun 1920-an sehingga nama Kasoloana berubah menjadi <b>Kasoloang</b>.
+                </p>
+                <p>
+                    Di sisi lain desa Kasoloang juga terdapat pesisir pantai sepanjang kurang lebih 3500 meter, tepatnya berada di wilayah Selat Makassar yang merupakan tempat bagi para nelayan mencari ikan untuk pemenuhan kebutuhan sehari-hari dan tak kalah pentingnya bahwa posisi pantai desa Kasoloang merupakan destinasi wisata pantai yang bisa bersaing dengan destinasi wisata pantai daerah lain, karena pantai desa Kasoloang masih terjaga kelestariannya sehingga pepohonan yang tumbuh di sepanjang pantai yaitu Pohon Langi Bajo (nama pohon dengan sebutan bahasa Kaili dan Bugis).
+                </p>
+                <p>
+                    Pantai desa Kasoloang juga terdapat salah satu hewan atau reptil yang harus dilindungi yaitu Penyu. Hewan ini berdasarkan data atau laporan bagi masyarakat yang tinggal di pesisir pantai desa Kasoloang bahwa hewan ini bertelur pada bulan Mei sampai bulan Juli.
+                </p>
+                
+                <h2>Demografi</h2>
+                <p>
+                    Letak desa Kasoloang secara geografis terletak di bagian selatan wilayah kecamatan Bambaira dengan batas-batas wilayah sebagai berikut :
+                    <ul>
+                        <li>Sebelah utara berbatasan dengan Desa Bambaira</li>
+                        <li>Sebelah selatan berbatasan dengan desa Randomayang kecamatan Bambalamotu</li>
+                        <li>Sebelah barat berbatasan dengan selat Makassar</li>
+                        <li>Sebelah timur berbatasan dengan desa Kalukunangka dan desa Wulai</li>
+                    </ul>
+                </p>
+                <p>
+                    Musim Hujan berlangsung pada bulan November sampai bulan Maret dan musim kemarau dimulai dari bulan Juli sampai bulan Oktober dan musim pancaroba mulai pada bulan April sampai bulan Juni. Dengan curah hujan tinggi terjadi pada bulan Januari (332,63mm) dan curah hujan rendah pada bulan Maret (150,71mm).
+                </p>
+                <p>
+                    Secara geografis desa Kasoloang mempunyai potensi yang besar disebabkan lokasi pertanian, perkebunan yang subur serta ditunjang dengan beberapa sungai yang mengelilingi desa Kasoloang. Jarak desa ke ibu kota kecamatan 2Km, jarak desa ke ibu kota kabupaten 13Km dan jarak antara desa ke ibu kota provinsi adalah 290km.
+                </p>
+                <p>
+                    Keadaan penduduk desa Kasoloang pada tahun 2020 berjumlah 2124 jiwa yang terdiri dari laki-laki 1061 jiwa dan perempuan 1063 jiwa yang berjumlah 552 Kepala Keluarga. Di desa Kasoloang terdiri dari beberapa suku antara lain Bugis, Mandar, Kaili, Tator, Jawa dan beberapa suku lain yang ikut bercocok tanam di desa ini.
+                </p>
+
+                <h2>Keadaan Sosial</h2>
+                <p>
+                    Masyarakat desa Kasoloang sebagian besar menyadari perlunya membangun kebersamaan, kerja gotong royong dan hidup secara kelompok untuk merencakanan program dan berpatisipasi dalam kegiatan kemasyarakatan, kondisi sosial budaya masyarakat ditunjukkan masih rendahnya kualitas dari sebagian SDM masyarakat. Meskipun demikian tingkat partisipasi masyarakat dalam memikirkan masa depan desa cukup tinggi. Ini dibuktikan dengan besarnya peran serta masyarakat dalam proses penyusunan RPJM-Desa.
+                </p>
+                <p>
+                    Masyarakat pada umumnya sudah banyak menyadari kesehatan sangatlah penting agar segala aktivitas keseharian dapat terselesaikan sesuai yang kita inginkan, maka dari itu masyarakat Kasoloang sangat memelihara kebersihan dan keselamatan demi diri mereka. Walaupun masyarakat mempunyai kemampuan yang terbatas dalam pemeliharaan dan fasilitas kesehatan yang sesuai dengan ketentuan pemerintah.
+                </p>
+
+                <h2>Keadaan Ekonomi</h2>
+                <p>
+                    Masyarakat desa Kasoloang umumnya bermata pencaharian petani seperti perkebunan kelapa sawit, kako, jagung, padi, Nelayan dan buruh tambak. Masyarakat desa Kasoloang memiliki potensi sumber daya alam yang besar karena disamping lahan pertanian yang masih cukup luas dan memiliki sungai, material pasir, atu namun karena jalan menuju perkebunan yang belum sepenuhnya terakses sehingga seluruh sumber daya yang dimiliki tidak dapat dikembangkan sesuai dengan fungsinya.
+                </p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Mata Pencaharian</th>
+                                <th>Jumlah</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Petani / Pekebun</td>
+                                <td>407 orang</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Wiraswasta</td>
+                                <td>61 orang</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Nelayan</td>
+                                <td>38 orang</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>PNS</td>
+                                <td>34 orang</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Buruh</td>
+                                <td>27 orang</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Pegawai Swasta</td>
+                                <td>18 orang</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>POLRI</td>
+                                <td>1 orang</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>TNI</td>
+                                <td>3 orang</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Bidan Honorer</td>
+                                <td>4 orang</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Perawat Honorer</td>
+                                <td>2 orang</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Lain-lain</td>
+                                <td>37 orang</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p>
+                    Struktur penduduk menurut kelompok umur dan jenis kelamin di desa Kasoloang tahun 2020
+                </p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Kelompok Umur</th>
+                                <th>Jumlah</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>0 - 1 Tahun</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>1 - 4 Tahun</td>
+                                <td>221</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>5 - 14 Tahun</td>
+                                <td>583</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>15 - 39 Tahun</td>
+                                <td>556</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>40 - 64 Tahun</td>
+                                <td>525</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>65 tahun ke atas</td>
+                                <td>211</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <p>
+                    Masyarakat desa Kasoloang yang dihuni 2.124 jiwa terdiri dari suku bangsa yang berbeda yaitu :
+                    <ul>
+                        <li>Bugis   = 846 Jiwa</li>
+                        <li>Mandar  = 685 Jiwa</li>
+                        <li>Kaili   = 571 Jiwa</li>
+                        <li>Tator   = 2 Jiwa</li>
+                        <li>Jawa    = 21 Jiwa</li>
+                    </ul>
+                </p>
+
+                <p>
+                    Berdasarkan data profil desa jumlah penduduk desa Kasoloang adalah 2.124 jiwa yang komposisi tersaji dalam tabel berikut :
+                </p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead style="justify-content: center;">
+                            <tr>
+                                <th rowspan="2">NO</th>
+                                <th rowspan="2">Nama Dusun</th>
+                                <th colspan="2">Penduduk</th>
+                                <th rowspan="2">JUMLAH</th>
+                            </tr>
+                            <tr>
+                                <th>LK</th>
+                                <th>PR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Kasoloang</td>
+                                <td>150</td>
+                                <td>161</td>
+                                <td>311</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Mesanga</td>
+                                <td>90</td>
+                                <td>100</td>
+                                <td>190</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Torenda</td>
+                                <td>183</td>
+                                <td>176</td>
+                                <td>359</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Binoli</td>
+                                <td>216</td>
+                                <td>214</td>
+                                <td>430</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Bantalaka</td>
+                                <td>165</td>
+                                <td>155</td>
+                                <td>320</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Durian Guni</td>
+                                <td>103</td>
+                                <td>101</td>
+                                <td>204</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Pebondo I</td>
+                                <td>154</td>
+                                <td>156</td>
+                                <td>310</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td colspan="2">Total Keseluruhan</td>
+                                <td>2.124 Jiwa</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article class="artikel">
+                <h2>Kondisi Pemerintah Desa</h2>
+                <p>
+                    Pemerintah desa Kasoloang telah berjalan sejak dijadikannya desa Kasoloang sebagai desa definitif dengan tetap berpedoman kepada peraturan perundang-undangan yang berlaku, yaitu sejak terbentuknya desa Kasoloang berpedoman kepada undang-undang nomor 22 tahun 1999 kemudian undang-undang berubah nomor 32 tahun 2004 tentang pemerintahan daerah yang melahirkan peraturan pemerintah nomor 72 tahun 2004 tentang desa dan sekarang melaksanakan undang-undang nomor 6 tahun 2014 tentang desa dengan menjalankan pemerintahan yang baik dan benar yang berorientasi kepada 4 program pokok yaitu penyelenggaraan pemerintahan, pelaksanaan pembangunan, pembinaan kemasyarakatan dan pemberdayaan masyarakat.
+                </p>
+
+                <h2>Pembagian Wilayah Desa</h2>
+                <p>
+                    Desa Kasoloang terbagi atas 7 dusun dan 14 RT dengan luas 14.25Km<sup>2</sup> yang terdiri dari :
+                    <ol>
+                        <li>Dusun Kasoloang</li>
+                        <li>Dusun Mesanga</li>
+                        <li>Dusun Torenda</li>
+                        <li>Dusun Binoli</li>
+                        <li>Dusun Bantalaka</li>
+                        <li>Dusun Durian Guni</li>
+                        <li>Dusun Pebondo I</li>
+                    </ol>
+                </p>
+            </article>
+
+            <article class="artikel">
+                <h2>Sumber Daya Alam</h2>
+                <p>
+                    Berikut data sumber daya desa Kasoloang yang terdiri dari data sumber daya alam, sumber daya manusia, sumber daya pembangunan dan sumber daya sosial dan budaya seperti pada tabel berikut :
+                </p>
+                <p style="font-weight: bold;">Data Sumber Daya Alam : Hasil Alam</p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead style="justify-content: center;">
+                            <tr>
+                                <th>No</th>
+                                <th>Uraian Sumber Daya Alam</th>
+                                <th>Volume</th>
+                                <th>Satuan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="font-weight: bold;">
+                                <td>1</td>
+                                <td>Tanah</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Tanah Kering</td>
+                                <td>230.000</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Tanah Basah</td>
+                                <td>66</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Tanah Gambut</td>
+                                <td>230.000</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>2</td>
+                                <td>Air</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sungai</td>
+                                <td>6</td>
+                                <td>Km</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Kolam</td>
+                                <td>-</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sumur Gali</td>
+                                <td>218</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sumur Bor</td>
+                                <td>37</td>
+                                <td>Buah</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mata Air</td>
+                                <td>12</td>
+                                <td>Buah</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>3</td>
+                                <td>Perkebunan/Pertanian</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Kelapa Sawit</td>
+                                <td>227</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Kelapa Dalam</td>
+                                <td>316</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Rambutan</td>
+                                <td>2</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Coklat/Kakao</td>
+                                <td>39</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mangga</td>
+                                <td>1</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Durian</td>
+                                <td>4</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Langsat</td>
+                                <td>1</td>
+                                <td>Ha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Pisang</td>
+                                <td>15</td>
+                                <td>Ha</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p style="font-weight: bold;">Data Sumber Daya Alam : Peternakan</p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead style="justify-content: center;">
+                            <tr>
+                                <th>No</th>
+                                <th>Jenis Ternak</th>
+                                <th>Jumlah</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Ayam</td>
+                                <td>505</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>kambing</td>
+                                <td>117</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Sapi</td>
+                                <td>76</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Kuda</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Kerbau</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Itik</td>
+                                <td>285</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Ikan</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p style="font-weight: bold;">Data Sumber Daya Manusia</p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead style="justify-content: center;">
+                            <tr>
+                                <th>No</th>
+                                <th>Uraian Sumber Daya Manusia</th>
+                                <th>Volume</th>
+                                <th>Satuan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="font-weight: bold;">
+                                <td>1</td>
+                                <td>Penduduk dan Keluarga</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Jumlah Penduduk Laki-laki</td>
+                                <td>702</td>
+                                <td>Orang</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Jumlah Penduduk Perempuan</td>
+                                <td>640</td>
+                                <td>Orang</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Jumlah Keluarga</td>
+                                <td>268</td>
+                                <td>KK</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>2</td>
+                                <td>Tenaga kerja berdasarkan latar belakang pendidikan</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Lulusan S1</td>
+                                <td>67</td>
+                                <td>Orang</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Lulusan SMA</td>
+                                <td>240</td>
+                                <td>Orang</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Lulusan SMP</td>
+                                <td>120</td>
+                                <td>Orang</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Lulusan SD</td>
+                                <td>140</td>
+                                <td>Orang</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Tidak Tamat SD/Tidak Sekolah</td>
+                                <td>838</td>
+                                <td>Orang</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p style="font-weight: bold;">Data Sumber Daya Pembangunan</p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead style="justify-content: center;">
+                            <tr>
+                                <th>No</th>
+                                <th>Uraian Sumber Daya Pembangunan</th>
+                                <th>Volume</th>
+                                <th>Satuan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="font-weight: bold;">
+                                <td>1</td>
+                                <td>Aset Prasarana Umum</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Jalan</td>
+                                <td>12</td>
+                                <td>Km</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Jembatan</td>
+                                <td>5</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>MCK Plus</td>
+                                <td>-</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Kantor Desa</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Kantor BPD</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Aula Desa</td>
+                                <td>-</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>2</td>
+                                <td>Aset Prasarana Pendidikan</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung PAUD</td>
+                                <td>4</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung TK</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung SD</td>
+                                <td>2</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung MTs</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung MA</td>
+                                <td>-</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung Pondok Pesantren</td>
+                                <td>-</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung Taman Pendidikan Al-Qur'an</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Perumahan Guru</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>3</td>
+                                <td>Aset Prasarana Kesehatan</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung PUSTU</td>
+                                <td>-</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Gedung Polindes</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Posyandu</td>
+                                <td>2</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>MCK PUSTU</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ruangan Rawat Inap</td>
+                                <td>-</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>4</td>
+                                <td>Aset Prasarana Ekonomi</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Pasar Desa</td>
+                                <td>1</td>
+                                <td>Unit</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>5</td>
+                                <td>Kelompok Usaha Ekonomi Kreatif</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Jumlah Kelompok Usaha</td>
+                                <td>3</td>
+                                <td>Kel Usaha</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Jumlah Kelompok Usaha yang Sehat</td>
+                                <td>1</td>
+                                <td>Kel Usaha</td>
+                            </tr>
+                            <tr style="font-weight: bold;">
+                                <td>6</td>
+                                <td>Aset Berupa Modal</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Total Aset Produktif</td>
+                                <td></td>
+                                <td>Rupiah</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Total Pinjaman di Masyarakat</td>
+                                <td></td>
+                                <td>Rupiah</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p style="font-weight: bold;">Sumber Daya Sosial dan Budaya</p>
+                <div class="table-container">
+                    <table border="1">
+                        <thead style="justify-content: center;">
+                            <tr>
+                                <th>No</th>
+                                <th>Uraian Sumber Daya Sosial Budaya</th>
+                                <th>Jumlah</th>
+                                <th>Satuan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Kelompok Adat</td>
+                                <td>1</td>
+                                <td>Kelompok</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Gotong Royong</td>
+                                <td>7</td>
+                                <td>Kelompok</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Kelompok Seni</td>
+                                <td>2</td>
+                                <td>Kelompok</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </article>
+        </div>
+
+    </div>
+    <footer>
+        <h3 class="footer">COPYRIGHT 2024 &#169; KKN 107 UNIVERSITAS TADULAKO - DESA BAMBAIRA</h3>
+    </footer>
+
+    <!-- Tambahkan konten untuk setiap bagian sesuai kebutuhan -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
